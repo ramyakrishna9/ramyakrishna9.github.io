@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@1,500&display=swap');
+
+body {
+    text-align: center;
+    background-image: url(https://scx2.b-cdn.net/gfx/news/hires/2019/2-nature.jpg);
+    font-family: 'Raleway', sans-serif;
+    
+}
+
+h1 {
+    color: green;
+}
+
+h1 a {
+    color: blueviolet;
+}
+ 
+h2 a:hover {
+    color: crimson;
+}
+ ul li a {
+    color: blue;
+    text-decoration: none;
+}
+
+.chessboard {
+    border-radius: 30px ;
+
+}
+.chessboard:hover {
+    -webkit-box-shadow: 31px 35px 19px 8px rgba(166,87,166,1);
+-moz-box-shadow: 31px 35px 19px 8px rgba(166,87,166,1);
+box-shadow: 31px 35px 19px 8px rgba(166,87,166,1);
+}
+
+.mate-in-one {
+
+    box-shadow: 5px 10px blueviolet;
+}
+.mate-in-two {
+    box-shadow: 5px 10px red;
+
+}
+
